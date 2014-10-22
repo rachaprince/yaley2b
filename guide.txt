@@ -1,0 +1,43 @@
+//white background or colored fixed background
+//navy color scheme
+//nav bar on top logo
+//home page--> video
+//zoom down the page
+//AIESEC logo on right of navbar
+//google forum link
+
+/Pages
+-home page what is y2b
+	-video and text
+	//large video for banner
+-y2b yale 2014
+	-details 
+-speakers
+	-circles, bio, keynote
+	-videos
+	-company bio, text,
+	-video of them speaking
+-keynote speaker, workshop leaders, closing speaker 
+(pictures)
+-register 
+-contact us
+-sponsors?
+
+Order 
+-About Y2B ( a little)
+-Y2B Yale- innovation, details, etc.
+-Speakers
+	keynote, 2 workshop speakers, closing speaker
+	-for each, picture text across, video beneath,
+	-don't overwhelm
+	-all 4 or 5 speakers
+-Partners
+	-logos and brief bio beneath each, 4 or so across page
+-Register
+	-google form, name, college, 
+-contact us
+  	-bijan picture, email, in association with AIESEC 
+
+
+
+
