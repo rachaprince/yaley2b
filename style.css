@@ -1,12 +1,9 @@
 .navbar {
-	position: fixed;
 	background-color: #263D77;
-	z-index: 11;
-	width: 100%;
+	z-index: 4;
 	height:70px;
 	padding: 5px;
 	margin: -10px;
-	
 }
 
 .logo-container{
@@ -27,11 +24,7 @@
 	float: right;
 }
 
-.links{
-	vertical-align: middle;
-}
-
-.links :link {
+.navbar a{
 	font-size: 18px;
 	color: white;
 	text-decoration: none;
@@ -41,18 +34,53 @@
 	font-family: "Roboto Condensed";
 }
 
-.links ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    vertical-align: text-bottom;
+.navbar li a:hover,
+.navbar li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
 }
 
-.links  li {
-	display: inline-block;
+
+.banner-container {
+	background: #12517A;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 88%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
 }
 
-.textbottom {
-	vertical-align: text-bottom;
-	margin-bottom: -20px;
+.banner {
+	width: 80%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+ }
+
+ .banner img {
+ 	max-width:100%;
+	max-height:100%;
+ }
+
+ .section-container {
+ 	position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+    padding: 0em;
+}
+
+.section {
+	background-color: #28323C;
+	height: 400px;
+	border-bottom-color: white;
+	color: white;
+	text-align: center;
 }
