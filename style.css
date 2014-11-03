@@ -40,11 +40,18 @@
     border: none;
     color: #AECFE5;
 }
-
+ .grayscale{
+  filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+ }
 
 .banner-container {
-	background: #12517A;
-    z-index: 1;
+	background-image: url("http://www.architecturaldigest.com/architecture/2014-08/best-new-university-architecture-slideshow/_jcr_content/par/cn_contentwell/par-main/cn_ad_slideshow/item20.rendition.slideshowVertical.new-university-architecture-21-edward-p-evans-hall-yale.jpg");
+
+    z-index: 0;
     overflow: hidden;
     width: 100%;
     height: 88%;
@@ -53,7 +60,30 @@
     position: fixed !important;
 }
 
+.color{
+	 filter: grayscale(0%);
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   -ms-filter: grayscale(0%);
+   -o-filter: grayscale(0%);
+}
+.logo-color{
+	position: fixed;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	max-width: 40%;
+	z-index: 1;
+	background-color: white;
+	border-radius: 30px;
+}
+
+.logo-color img{
+	max-width: 100%;
+}
 .banner {
+
 	width: 80%;
     height: 50%;
     margin: auto;
@@ -79,8 +109,9 @@
 
 .section {
 	background-color: #28323C;
-	height: 400px;
+	min-height: 400px;
 	border-bottom-color: white;
 	color: white;
 	text-align: center;
+	overflow: hidden;
 }
